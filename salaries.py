@@ -24,6 +24,9 @@ def load_data(file_path):
     except FileNotFoundError:
         st.error("File not found. Please make sure the file exists at the specified location.")
         return None
+    
+    
+
 
 # Set page title and icon
 st.set_page_config(page_title="Tech Job Explorer", page_icon="📊", layout="wide", initial_sidebar_state="expanded")
